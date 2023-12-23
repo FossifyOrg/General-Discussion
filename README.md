@@ -63,13 +63,13 @@ You will most likely want to add a new file only if you translate an app into a 
 3. At the top right corner click at `Create new file`.
 4. After the `res` folder, you can type in your folder path. For creating a German translation just type in `values-de/` (where `de` is the country code). The new folder will be added automatically after typing the slash.
 5. Add a file name, i.e., `strings.xml` (the path should look similar to the image below)
-   ![Github new file path](Media/Screenshots/Readme/github_new_file.png)
-6. Copy the contents of an already existing `strings.xml` file into the new file (for example, the content of https://github.com/FossifyOrg/Camera/blob/master/app/src/main/res/values/strings.xml).
-7. Add your string translations.
-8. Add a commit message under the file, to the text field which has a "Create new file" hint. Just type in what you have done, for example, "adding Spanish strings".
-9. Press `Propose new file`.
-10. Click the green button `Create pull request`.
-11. Thank yourself!
+   <img src="https://github.com/FossifyOrg/General-Discussion/assets/36371707/a8aa4d5e-c0c1-4d10-b82b-8c7ec6d21e68" alt="Github new file path" width=75% />
+7. Copy the contents of an already existing `strings.xml` file into the new file (for example, the content of https://github.com/FossifyOrg/Camera/blob/master/app/src/main/res/values/strings.xml).
+8. Add your string translations.
+9. Add a commit message under the file, to the text field which has a "Create new file" hint. Just type in what you have done, for example, "adding Spanish strings".
+10. Press `Propose new file`.
+11. Click the green button `Create pull request`.
+12. Thank yourself!
 
 * Change only the string which is between ">" and `</string>`, _not_ the first one after the "name=" tag.
 * Please escape apostrophes, meaning you have to put a backslash before every apostrophe to make it look like: \\'
