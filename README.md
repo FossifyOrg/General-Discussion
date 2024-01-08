@@ -18,13 +18,12 @@ A place for discussing all apps in general + anything else you want to say.
 
 1. Every project contains a `.editorconfig` file, with definitions of required indentations, newlines, etc.
 2. Always format the code (`Ctrl + Alt + L`) and optimize imports (`Ctrl + Alt + O`) before creating a pull request.
-3. If you add a new string, add it to all languages. If you speak a language yourself, translate it. If not, use the English version. Do not use machine translating.
-4. If you add a new icon, make sure it is prefixed with "ic_", it is white, and try using vectors.
-5. If you change something in the UI, test the visibility with all themes, including Black & White and System default (Material You) on Android 12+. Test the changes by using the biggest system font size too.
-6. Use the existing code style and naming conventions; do not bring your own style.
-7. Always use brackets, even at 1 liner "if", "return" or "continue" statements, etc.
-8. If you add a new model or work with Gson, test the build in release mode with Proguard enabled as well.
-9. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so. The proprietary gallery build has a more advanced photo and video editor, while the FOSS one has a basic only.
+3. If you add a new icon, make sure it is prefixed with "ic_", it is white, and try using vectors.
+4. If you change something in the UI, test the visibility with all themes, including Black & White and System default (Material You) on Android 12+. Test the changes by using the biggest system font size too.
+5. Use the existing code style and naming conventions; do not bring your own style.
+6. Always use brackets, even at 1 liner "if", "return" or "continue" statements, etc.
+7. If you add a new model or work with Gson, test the build in release mode with Proguard enabled as well.
+8. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so. The proprietary gallery build has a more advanced photo and video editor, while the FOSS one has a basic only.
 
 If you try fixing a bug or adding a new feature, make sure that it is already reported at the given repository and the report is open and marked as a Bug or Feature Request. If the given issue is closed, chances are that we are not interested in the given feature, and your pull request will likely be rejected.
 
