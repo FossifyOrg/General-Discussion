@@ -3,6 +3,6 @@ contact_links:
   - name: Questions
     url: https://github.com/FossifyOrg/General-Discussion/discussions
     about: Please ask and answer questions here.
- - name: Something else
+  - name: Something else
     url: https://github.com/FossifyOrg/General-Discussion/issues/new
     about: Create a blank issue.
