@@ -25,7 +25,7 @@ A place for discussing all apps in general + anything else you want to say.
 7. If you add a new model or work with Gson, test the build in release mode with Proguard enabled as well.
 8. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so. The proprietary gallery build has a more advanced photo and video editor, while the FOSS one has a basic only.
 
-If you try fixing a bug or adding a new feature, make sure that it is already reported at the given repository and the report is open and marked as a Bug or Feature Request. If the given issue is closed, chances are that we are not interested in the given feature, and your pull request will likely be rejected.
+If you try fixing a bug or adding a new feature, make sure that it is already reported at the given repository and the report is open without label `needs triage`. If the given issue is closed or still has `needs triage` label, your pull request will be rejected. The only exception are critical bugs that we weren't able to classify yet.
 
 ---
 
