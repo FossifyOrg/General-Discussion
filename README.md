@@ -23,9 +23,9 @@ A place for discussing all apps in general + anything else you want to say.
 5. Use the existing code style and naming conventions; do not bring your own style.
 6. Always use brackets, even at 1 liner "if", "return" or "continue" statements, etc.
 7. If you add a new model or work with Gson, test the build in release mode with Proguard enabled as well.
-8. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so. The proprietary gallery build has a more advanced photo and video editor, while the FOSS one has a basic only.
+8. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so.
 
-If you try fixing a bug or adding a new feature, make sure that it is already reported at the given repository and the report is open without label `needs triage`. If the given issue is closed or still has `needs triage` label, your pull request will be rejected. The only exception are critical bugs that we weren't able to classify yet.
+If you try fixing a bug or adding a new feature, make sure that it is already reported at the given repository and the report is open without label `needs triage`. If the given issue is closed or still has `needs triage` label, your pull request will likely be rejected. The only exceptions are critical bugs that we weren't able to classify yet.
 
 ---
 
