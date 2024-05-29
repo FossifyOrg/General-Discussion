@@ -1,8 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: Questions
-    url: https://github.com/FossifyOrg/General-Discussion/discussions
-    about: Please ask and answer questions here.
   - name: Something else
-    url: https://github.com/FossifyOrg/General-Discussion/issues/new
-    about: Please use this option only if your issue is not a bug report, a feature request, or a question. 
+    url: https://github.com/orgs/FossifyOrg/discussions/new/choose
+    about: Please use this option only if your issue is not a bug report or a feature request. 
