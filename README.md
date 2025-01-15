@@ -10,8 +10,9 @@ A place for discussing all apps in general + anything else you want to say.
 2. If you are reporting a bug, provide steps for reproducing, and mention your app and OS version.
 3. Ensure you use the latest app version and read the in-app FAQ before reporting anything.
 4. Check if the issue has already been reported. Use search with some keywords.
-5. If the issue is already reported, give it a "👍" to increase its priority and please avoid comments like `+1` or `I need this too!` as they do not add anything useful.
-6. Please make sure to report your issue in English only, it'll be ignored otherwise. You can use translators if you need to.
+5. If the feature request is already reported, give it a "👍" to increase its priority and please avoid comments like `+1` or `I need this too!` as they do not add anything useful.
+6. If the bug is already reported and has `needs triage` and/or `device/software specific` labels, write a comment mentioning your device model and OS version. Any additional information like reproduction steps or screenshots will be greatly appreciated.
+7. Please make sure to report your issue in English only, it'll be ignored otherwise. You can use translators if you need to.
 
 ---
 
