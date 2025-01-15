@@ -11,7 +11,7 @@ A place for discussing all apps in general + anything else you want to say.
 3. Ensure you use the latest app version and read the in-app FAQ before reporting anything.
 4. Check if the issue has already been reported. Use search with some keywords.
 5. If the issue is already reported, give it a "👍" to increase its priority and please avoid comments like `+1` or `I need this too!` as they do not add anything useful.
-6. Please make your issue is in English, it'll be ignored otherwise. You can use translators if you need to.
+6. Please make sure to report your issue in English only, it'll be ignored otherwise. You can use translators if you need to.
 
 ---
 
