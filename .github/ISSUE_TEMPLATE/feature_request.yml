@@ -20,7 +20,7 @@ body:
           required: true
         - label: "I have read the FAQs inside the app (Menu -> About -> FAQs), in the [README](https://github.com/FossifyOrg/General-Discussion/blob/master/README.md) and my problem isn't listed."
           required: true
-        - label: "**I have taken the time to fill in all the required details. I understand that the bug report may get dismissed otherwise.**"
+        - label: "**I have taken the time to fill in all the required details. I understand that the request may get dismissed otherwise.**"
           required: true
         - label: "This issue contains only one feature request."
           required: true
