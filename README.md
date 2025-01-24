@@ -26,8 +26,8 @@ A place for discussing all apps in general + anything else you want to say.
 6. Always use brackets, even at 1 liner "if", "return" or "continue" statements, etc.
 7. If you add a new model or work with Gson, test the build in release mode with Proguard enabled as well.
 8. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so.
-
-If you try fixing a bug or adding a new feature, make sure that it is already reported at the given repository and the report is open without label `needs triage`. If the given issue is closed or still has `needs triage` label, your pull request will likely be rejected. The only exceptions are critical bugs that we weren't able to classify yet.
+9. Before fixing a bug or adding a new feature, ensure it’s already reported or requested in the repository, open, and doesn’t have the `needs triage` label. If the issue is closed or has `needs triage` label, your PR will likely be rejected. The only exceptions are critical bugs that we weren't able to classify yet.
+10. PRs altering build configuration, dependencies or SDK updates won't be accepted unless explicitly requested.
 
 ---
 
