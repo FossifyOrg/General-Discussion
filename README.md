@@ -20,7 +20,7 @@ A place for discussing all apps in general + anything else you want to say.
 
 These rules exist to keep the codebase consistent, maintainable and easy to build on. Please read them carefully before contributing.
 
-1. Always format the code (Ctrl + Alt + L) and optimize imports (Ctrl + Alt + O) before submitting a pull request.
+1. Always format the code (`Ctrl + Alt + L`) and optimize imports (`Ctrl + Alt + O`) before submitting a pull request.
 2. If you add a new icon, prefix it with `ic_`, make sure it is white, and use vector drawables whenever possible.
 3. If you make UI changes, test them with all themes including Light, Dark, Black & White, and System default (on Android 12 and above). Also test with the largest system font size.
 4. Follow the existing code style and naming conventions. Do not introduce your own style. Blending in is the best way to maintain consistency.
