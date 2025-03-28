@@ -18,16 +18,17 @@ A place for discussing all apps in general + anything else you want to say.
 
 ## Contribution rules for developers
 
-1. Every project contains a `.editorconfig` file, with definitions of required indentations, newlines, etc.
-2. Always format the code (`Ctrl + Alt + L`) and optimize imports (`Ctrl + Alt + O`) before creating a pull request.
-3. If you add a new icon, make sure it is prefixed with "ic_", it is white, and try using vectors.
-4. If you change something in the UI, test the visibility with all themes, including Black & White and System default (Material You) on Android 12+. Test the changes by using the biggest system font size too.
-5. Use the existing code style and naming conventions; do not bring your own style.
-6. Always use brackets, even at 1 liner "if", "return" or "continue" statements, etc.
-7. If you add a new model or work with Gson, test the build in release mode with Proguard enabled as well.
-8. There is no real functionality change between build flavors, only some About button visibility differences, Rate Us dialog, and More Apps From Us buttons not showing up or so.
-9. Before fixing a bug or adding a new feature, ensure it’s already reported or requested in the repository, open, and doesn’t have the `needs triage` label. If the issue is closed or has `needs triage` label, your PR will likely be rejected. The only exceptions are critical bugs that we weren't able to classify yet.
-10. PRs altering build configuration, dependencies or SDK updates won't be accepted unless explicitly requested.
+These rules exist to keep the codebase consistent, maintainable and easy to build on. Please read them carefully before contributing.
+
+1. Always format the code (Ctrl + Alt + L) and optimize imports (Ctrl + Alt + O) before submitting a pull request.
+2. If you add a new icon, prefix it with `ic_`, make sure it is white, and use vector drawables whenever possible.
+3. If you make UI changes, test them with all themes including Light, Dark, Black & White, and System default (on Android 12 and above). Also test with the largest system font size.
+4. Follow the existing code style and naming conventions. Do not introduce your own style. Blending in is the best way to maintain consistency.
+5. Always use brackets, even for one-line `if`, `return`, or `continue` statements.
+6. Use clear, descriptive commit messages. Avoid generic messages like “fix” or “update.” Comment your code only when necessary. Avoid obvious comments, and use commit messages to explain the intent behind changes when needed.
+7. Before fixing a bug or adding a feature, make sure it is already reported in the repository, is open, and does not have the `needs triage` label. If the issue is closed or still has `needs triage` label, your PR will likely be rejected. The only exception is for critical bugs that have not been classified yet.
+8. Do not submit incomplete or bare-bones pull requests. They will likely be rejected. Every change should be well-researched, thoroughly tested, and production-ready. Small adjustments are fine, but if it is not ready for real-world usage, it is not ready for a PR. Avoid using PRs as a way to brainstorm or ask “what if?” questions. Use relevant issues or discussions for that instead. If you’re unsure how to design a feature, feel free to take inspiration from other popular apps.
+9. Pull requests that modify build configuration, dependencies, or SDK versions will not be accepted unless explicitly requested.
 
 ---
 
