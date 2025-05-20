@@ -4,7 +4,7 @@ A place for discussing all apps in general + anything else you want to say.
 
 ## FAQ
 
-### How do I suggest an improvement, ask a question or report an issue?
+### How do I suggest an improvement, ask a question, or report an issue?
 
 1. This general discussion repository is used for bugs and suggestions that affect multiple apps. For issues affecting only 1 app, use its separate repository.
 2. If you are reporting a bug, provide steps for reproducing, and mention your app and OS version.
@@ -18,7 +18,7 @@ A place for discussing all apps in general + anything else you want to say.
 
 ## Contribution rules for developers
 
-These rules exist to keep the codebase consistent, maintainable and easy to build on. Please read them carefully before contributing.
+These rules exist to keep the codebase consistent, maintainable, and easy to build on. Please read them carefully before contributing.
 
 1. Always format the code (`Ctrl + Alt + L`) and optimize imports (`Ctrl + Alt + O`) before submitting a pull request.
 2. If you add a new icon, prefix it with `ic_`, make sure it is white, and use vector drawables whenever possible.
@@ -30,6 +30,11 @@ These rules exist to keep the codebase consistent, maintainable and easy to buil
 8. Do not submit incomplete or bare-bones pull requests. They will likely be rejected. Every change should be well-researched, thoroughly tested, and production-ready. Small adjustments are fine, but if it is not ready for real-world usage, it is not ready for a PR. Avoid using PRs as a way to brainstorm or ask “what if?” questions. Use relevant issues or discussions for that instead. If you’re unsure how to design a feature, feel free to take inspiration from other popular apps.
 9. Pull requests that modify build configuration, dependencies, or SDK versions will not be accepted unless explicitly requested.
 
+#### Notes
+
+ - It is preferred that commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#specification) spec. This enables automation and keeps the commit history structured.
+ - Most pull requests will be **squash merged** unless the commit history includes atomic changes worth preserving.
+
 ---
 
 ## How can I suggest an edit to a file?
@@ -38,7 +43,7 @@ Creating pull requests with some changes is a lot simpler than most people think
 
 You can find our apps on Weblate at https://hosted.weblate.org/projects/fossify/, you can see untranslated strings there easily.
 
-However, if you prefer the old-style file updating via Github, you can still do it. The process is the following:
+However, if you prefer the old-style file updating via GitHub, you can still do it. The process is the following:
 
 1. Log in to GitHub.
 2. Find the file with the strings (`app/src/main/res/values(-xx)/strings`, for example, the Italian translation of the Gallery is at https://github.com/FossifyOrg/Gallery/blob/master/app/src/main/res/values-it/strings.xml).
