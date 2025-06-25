@@ -18,37 +18,37 @@ To make the process as smooth as possible for everyone, please read the relevant
 
 1. **Issue first**
 
-   *  Before starting work, confirm there is an open issue for the task and that it is not tagged `needs triage`.
-   * **Exceptions:** Critical, unclassified production-blocking bugs. Trivial changes, such as typos or broken links.
+   - Before starting work, confirm there is an open issue for the task and that it is not tagged `needs triage`.
+   - **Exceptions:** Critical, unclassified production-blocking bugs. Trivial changes, such as typos or broken links.
 
 2. **Code style & formatting**
 
-   * Always format code and optimize imports.
-   * Follow existing naming and style conventions. Don't introduce a new style.
-   * Prefix any new icon with `ic_`, use white vector drawables.
-   * Always use braces, even for one-line `if`, `return`, or `continue` statements.
+   - Always format code and optimize imports.
+   - Follow existing naming and style conventions. Don't introduce a new style.
+   - Prefix any new icon with `ic_`, use white vector drawables.
+   - Always use braces, even for one-line `if`, `return`, or `continue` statements.
 
 3. **Commit messages**
 
-   * Use clear, descriptive commit messages.
-   * Prefer [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#specification).
+   - Use clear, descriptive commit messages.
+   - Prefer [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#specification).
 
 4. **Theming & accessibility testing**
 
-   * Test UI changes on all themes (Light, Dark, Black & White, System default on Android 12+) and with the largest system font size.
+   - Test UI changes on all themes (Light, Dark, Black & White, System default on Android 12+) and with the largest system font size.
 
 5. **CI and quality gates**
 
-   * Ensure **all** CI checks pass (build, tests, lint, detekt, etc.) on your pull request.
+   - Ensure **all** CI checks pass (build, tests, lint, detekt, etc.) on your pull request.
 
 6. **Completeness & readiness**
 
-   * PRs must be well-researched, thoroughly tested, and production-ready.
-   * No bare-bones or speculative PRs.
+   - PRs must be well-researched, thoroughly tested, and production-ready.
+   - No bare-bones or speculative PRs.
 
 7. **Build configuration**
 
-   * Changes to build configuration, dependencies, or target SDK versions require explicit prior approval.
+   - Changes to build configuration, dependencies, or target SDK versions require explicit prior approval.
 
 > **Note:** Most pull requests will be **squash merged** unless they contain atomic changes worth preserving.
 
@@ -56,7 +56,7 @@ To make the process as smooth as possible for everyone, please read the relevant
 
 The best and preferred way to contribute translations is via Weblate.
 
-*   **Contribute on Weblate: [https://hosted.weblate.org/projects/fossify/](https://hosted.weblate.org/projects/fossify/)**
+- **Contribute on Weblate: [https://hosted.weblate.org/projects/fossify/](https://hosted.weblate.org/projects/fossify/)**
 
 If you prefer to work directly on GitHub, you can follow the instructions below.
 
