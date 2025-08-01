@@ -11,7 +11,7 @@ To make the process as smooth as possible for everyone, please read the relevant
 3.  Ensure you're using the **latest app version** and have read the in-app FAQ before reporting.
 4.  **Search first!** Check if the issue has already been reported by searching with relevant keywords.
 5.  If a feature request already exists, add a "👍" to show your support. Avoid comments like `+1` or `I need this too!`, as they do not add useful information.
-6.  If a bug is already reported and has the `needs triage` or `device/software specific` labels, feel free to add a comment with your device model and OS version.
+6.  If a bug is already reported and has the `needs reproduction` or `device/software specific` labels, feel free to add a comment with your device model and OS version.
 7.  Please write all reports in **English**. Reports in other languages will be closed.
 
 ## Contributing code
