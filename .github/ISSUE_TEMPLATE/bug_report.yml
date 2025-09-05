@@ -64,13 +64,13 @@ body:
       label: Which apps are affected?
       multiple: true
       options:
-        - App Launcher
+        - All Fossify Apps
         - Calculator
         - Calendar
         - Camera
         - Clock
         - Contacts
-        - Draw
+        - Documents
         - File Manager
         - Flashlight
         - Gallery
@@ -79,7 +79,7 @@ body:
         - Messages
         - Music Player
         - Notes
-        - PDF Viewer
+        - Paint
         - Phone
         - Thank You
         - Voice Recorder
