@@ -50,7 +50,9 @@ To make the process as smooth as possible for everyone, please read the relevant
 
    - Changes to build configuration, dependencies, or target SDK versions require explicit prior approval.
 
-> **Note:** Most pull requests will be **squash merged** unless they contain atomic changes worth preserving.
+**Notes:** 
+ - Most pull requests will be **squash merged** unless they contain atomic changes worth preserving.
+ - AI-generated pull requests will likely be rejected.
 
 ## Contributing translations
 
