@@ -26,7 +26,6 @@ To make the process as smooth as possible for everyone, please read the relevant
    - Always format code and optimize imports.
    - Follow existing naming and style conventions. Don't introduce a new style.
    - Prefix any new icon with `ic_`, use white vector drawables.
-   - Always use braces, even for one-line `if`, `return`, or `continue` statements.
 
 3. **Commit messages**
 
