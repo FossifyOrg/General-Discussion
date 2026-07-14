@@ -18,8 +18,8 @@ To make the process as smooth as possible for everyone, please read the relevant
 
 1. **Issue first**
 
-   - Before starting work, confirm there is an open issue for the task and that it is labeled `accepted`. Do **not** work on issues labeled `needs triage`.
-   - **Exceptions:** Critical, unclassified production-blocking bugs. Trivial changes, such as typos or broken links.
+   - Before starting work, confirm there is an open issue for the task and that it is labeled `help wanted`. Please do **not** submit PRs for issues without this label. Such pull requests will be closed without review.
+   - **Exceptions:** Critical, unclassified production-blocking bugs. Translations, trivial changes, such as typos or broken links.
 
 2. **Code style & formatting**
 
