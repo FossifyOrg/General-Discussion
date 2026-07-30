@@ -43,6 +43,7 @@ To make the process as smooth as possible for everyone, please read the relevant
 6. **Completeness & readiness**
 
    - PRs must be well-researched, thoroughly tested, and production-ready.
+   - Code changes should be focused and small. Do not combine unrelated changes in a single pull request.
    - No bare-bones or incomplete PRs.
 
 7. **Build configuration**
