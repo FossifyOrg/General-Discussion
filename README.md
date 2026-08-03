@@ -52,7 +52,7 @@ To make the process as smooth as possible for everyone, please read the relevant
 
 **Notes:** 
  - Most pull requests will be **squash merged** unless they contain atomic changes worth preserving.
- - AI-assisted pull requests are permitted, provided they follow the contribution guidelines.
+ - AI contributions are permitted, provided they follow the contribution guidelines.
 
 ## Contributing translations
 
